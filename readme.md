@@ -15,6 +15,8 @@ This repo contains several common big data exercises.
  
 ## How to run tests
 
-    #from the repository root
+    Before running tests create resources folder on main folder
+    Make sure to download and uncompres the file [http://snap.stanford.edu/data/movies.txt.gz]
+    On the testDataInfo class find the Recommender instance param, replace it with "movies.txt"
+    #from the repository root 
     mvn test
- 
