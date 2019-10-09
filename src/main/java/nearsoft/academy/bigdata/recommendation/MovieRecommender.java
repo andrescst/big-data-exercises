@@ -30,7 +30,7 @@ public class MovieRecommender {
 
     public MovieRecommender(String path) {
         // File from the resources folder 
-        File file = new File(MovieRecommender.class.getClassLoader().getResource(path).getFile());
+        File sourceFile = new File(MovieRecommender.class.getClassLoader().getResource(path).getFile());
 
 
         try {
